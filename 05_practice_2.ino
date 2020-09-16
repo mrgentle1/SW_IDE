@@ -15,7 +15,7 @@ void loop() {
   for (int i=0;i<11;i++){
     toggle = !toggle;
     digitalWrite(PIN_LED, toggle);
-    delay(200);
+    delay(100);
   }
   while(1){}
 }
